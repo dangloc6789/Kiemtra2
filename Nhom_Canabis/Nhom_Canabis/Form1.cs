@@ -19,7 +19,11 @@ namespace Nhom_Canabis
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-
+            if(textboxmatkhau.Text== "admin" && textboxusername.Text== "admin")
+            {
+                Form2 f = new Form2();
+                f.Show();
+            }
         }
 
         private void label1_Click(object sender, EventArgs e)
